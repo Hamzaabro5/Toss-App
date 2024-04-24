@@ -2,6 +2,7 @@ console.log(`Hello World`);
 
 
 const h2 = document.querySelector(`h2`);
+const image = document.querySelector(`img`)
 
 
 function toss(clickedbtn) {
@@ -25,7 +26,11 @@ function toss(clickedbtn) {
 }
 
 
-
+if (num === 1) {
+    image.src = `./Head.JPG`
+}else{
+    image.src = `./tail.JPG`
+}
 
     
 }
