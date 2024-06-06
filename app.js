@@ -1,6 +1,3 @@
-console.log(`Hello World`);
-
-
 const h2 = document.querySelector(`h2`);
 const image = document.querySelector(`img`)
 
