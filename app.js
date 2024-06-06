@@ -27,9 +27,9 @@ function toss(clickedbtn) {
 
 
 if (num === 1) {
-    image.src = `./Head.JPG`
+    image.src = `./assets/Head.JPG`
 }else{
-    image.src = `./tail.JPG`
+    image.src = `./assets/tail.JPG`
 }
 
     
